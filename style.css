@@ -2,14 +2,13 @@
 		body {
 			font-family: Arial, sans-serif;
 			background-color: #f4f4f4;
-            background-image: url("C:\Users\DELL\Pictures\wallpaper\221968.jpg");
-            background-repeat: no-repeat;
+            background-image:url(221968.jpg) ;
             background-size: cover;
             
 		}
 		.container {
-			background-color: #ffc0cb;
-			border-radius: 5px;
+			background-color:rgba(25, 25, 25, 0.45);
+			border-radius: 1.5rem;
 			box-shadow: 0 0 5px rgba(0,0,0,0.3);
 			padding: 20px;
 			margin: 50px auto;
@@ -17,10 +16,12 @@
 		}
 		h2 {
 			text-align: center;
+            color : burlywood;
 			margin-bottom: 20px;
 		}
 		label {
 			display: block;
+            color : burlywood;
 			margin-bottom: 10px;
 		}
 		input[type="text"], input[type="password"] {
