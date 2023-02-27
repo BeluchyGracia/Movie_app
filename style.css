@@ -32,7 +32,7 @@
 			width: 100%;
 			box-sizing: border-box;
 		}
-		input[type="submit"] {
+		/* input[type="submit"] {
 			background-color: #4CAF50;
 			color: #fff;
 			padding: 10px 20px;
@@ -47,5 +47,25 @@
 		.error {
 			color: red;
 			margin-bottom: 10px;
+		} */
+        #login-button {
+            background-color: #4CAF50; 
+            border: none; 
+            color: white; 
+            padding: 12px 24px; 
+            text-align: center; 
+            text-decoration: none; 
+            display: inline-block; 
+            font-size: 16px; 
+            margin: 4px 2px; 
+            cursor: pointer; 
+            border-radius: 4px; 
+          }
+          #login-button:hover {
+            background-color: #3e8e41; 
+          }
+
+          .error {
+			color: red;
+			margin-bottom: 10px;
 		}
-	</style>
