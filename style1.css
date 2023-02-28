@@ -1,20 +1,26 @@
    
-   h1{
-    color : aqua;
+   nav{
+    text-align: right;
    }
+    
+    
+    h1{
+        text-align: left;
+   } 
    
    /* Style the header */
-   header {
+   /* header {
     background-color:brown;
     color: #fff;
     padding: 20px;
-  }
+  } */ 
   
   /* Style the navigation links */
   nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+  
   }
   
   nav ul li {
@@ -48,6 +54,7 @@
     font-size: 18px;
     color: aquamarine;
     line-height: 1.5;
+    text-align:start;
   }
   
   main ul {
